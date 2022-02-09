@@ -1,0 +1,42 @@
+{
+  "name": "bicycle-borrow-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build:web": "parcel build ./frontend/index.html --public-url ./ --no-minify",
+    "start": " parcel ./frontend/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.2",
+    "contracts": "^0.4.0",
+    "env-cmd": "^10.1.0",
+    "ethers": "^5.5.4",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "regenerator-runtime": "^0.13.9",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.2.9",
+    "web3-provider-engine": "~15.0.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "cssnano": "^5.0.7",
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^8.3.6",
+    "sass": "^1.37.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  }
+}
